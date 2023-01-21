@@ -132,7 +132,7 @@ main {
 }
 .main-table-container {
   display: flex;
-  gap: 60px;
+  gap: 20px;
   width: 100%;
   height: auto;
   min-width: 320px;
@@ -152,8 +152,8 @@ main {
 .main-currency-table {
   scroll-snap-align: center;
   width: 70%;
-  min-height: 235px;
-  max-width: 500px;
+  min-width: 220px;
+  max-width: 230px;
   height: 250px;
   margin: 0 auto;
   font-family: "Inter", sans-serif;
@@ -269,12 +269,13 @@ main {
 }
 .product-cards--container {
   width: 100%;
-  min-width: 288px;
-  max-width: 400px;
   height: auto;
+  margin: 0 auto;
 }
 .product-detail--card {
   width: 90%;
+  min-width: 288px;
+  max-width: 400px;
   height: 150px;
   margin: 15px auto;
   padding: 10px;
@@ -467,10 +468,10 @@ footer .left ul {
     line-height: 1.8rem;
     list-style: none;
 }
-.left li {
-    margin: 10px 0;
+footer .left ul li {
+    margin: 15px 0;
 }
-.left a {
+footer .left ul a {
     display: block;
     text-decoration: none;
     color: var(--just-white);
